@@ -1,0 +1,207 @@
+$desktop:1200px; //col-xl
+$laptop:992px; //col-lg
+$tablet:768px; //col-md
+$phone:480px; //col-sm
+header{
+    background-image: url('media/img/Jokulsarlon\ Ice\ Lake.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    position: relative;
+    @media(max-width:$laptop){
+     background-position: center;
+     background-size: cover;
+     
+     height: 1000px;
+    }
+ 
+    ul{
+
+        width: 900px;
+        font-weight: bold;
+    }
+    .container{
+        margin-top: 90px;
+      
+        }
+        H1{
+            text-align: center;
+            @media(max-width:677px){
+                font-size: 20px;
+        }
+        H1:nth-child(1){
+            font-size: 30px;
+        }
+        H1:nth-child(2){
+            font-size: 60px;
+        }
+    }
+    .row{
+        width: fit-content;
+        margin: auto;
+        height: 100px;
+        position: relative;
+        @media(max-width:677px){
+            display: block;
+    }
+  
+    }
+  
+    .btn{
+     
+        width: 200px;
+        height: 45px;
+        @media(max-width:1000px){
+            display: block;
+            margin-top: 10px;
+           
+            
+            
+
+    }
+    }
+    i{
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+    }
+}
+main{
+  
+       width: 100%;
+    .row{
+        @media(max-width:$laptop){
+            display: block;
+    }
+        img{
+            width: 100px;
+           
+        }
+       .card   {
+        @media(max-width:$laptop){
+           min-width: 90%;
+            margin: auto;
+    }
+           .card-body{
+            @media(max-width:$laptop){
+                padding: 0px;
+                width: 100%;
+        }
+               h3{
+                color: #686b6e;
+               }
+               p{
+                   color: #adb5bd
+                   ;
+               }
+           }
+       }
+    }
+   
+    .main-second{
+        background-color:  #f3f4f8;
+        .container{
+            .text-center{
+                width: 600px;
+                p{
+                    color: #686b6e;
+                }
+            }
+        }
+        .row{
+            .card{
+           background-color:   #f3f4f8;
+           .card-body{
+               a{
+                   text-decoration: none;
+               }
+           }
+            }
+        }
+       
+    }
+    .work{
+        .text-center{
+            width: 600px;
+            p{
+                color: #686b6e;
+            }
+        }
+        .imgs{
+
+            img{
+                @media(max-width:$laptop){
+                    display: block;
+                    width: 95%;
+            }
+                width: 30.3%;
+                height: 300px;
+                background-size: cover;
+                margin-left: 10px;
+                margin-top: 15px;
+                background-size: cover;
+            }
+
+        }
+    }
+    
+}
+footer{
+
+#luka{
+    @media(max-width:$laptop){
+        display: block;
+}
+}
+.row{
+    @media(max-width:$laptop){
+        display: block;
+}
+    .card{
+        @media(max-width:$laptop){
+            min-width: 90%;
+             margin: auto;
+            }
+     
+        
+        .card-body{
+            @media(max-width:$laptop){
+                min-width: 90%;
+                 margin: auto;
+                }
+            p{
+                color:  #686b6e;
+                
+            }
+        }
+        .card-link{
+            text-decoration: none;
+            color:  #686b6e;
+        }
+    }
+}
+    .footer-contact{
+        padding: 30px;
+        .col-6{
+            .info{
+                @media(max-width:$laptop){
+                    min-width: 90%;
+                    text-align: center;
+                     margin: auto;
+                    }
+            }
+            @media(max-width:$laptop){
+                min-width: 90%;
+                 margin: auto;
+                 padding: 0px;
+                }
+            .row{
+                display: flex;
+               
+                
+            }
+        }
+    }
+}
+

@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+  
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+html{
+ overflow-x: hidden;
+}
+
+
+.carousel-item img{
+    height: 500px;
+    width: auto;
+    object-fit: cover;
+}
+.carousel-caption p{
+    margin-bottom: 10%;
+}
+#profile{
+    width: 100px;
+    height: 100px;
+    border: 5px solid white;
+    border-radius: 50px;
+}
+.info{
+    width:50%;
+    margin-top: 50px;
+   
+}
+input::placeholder { /* Most modern browsers support this now. */
+    color:    rgb(197, 186, 186);
+ }
+input{
+    display: flex;
+    padding: 5px;
+   
+}
+.in-n{
+    width: 100%;
+    border: 1px solid yellow;
+}
+.in-e{
+    width: 100%;
+    border: 1px solid yellow;
+
+}
+.in-s{
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid yellow;
+
+}
+.in-m{
+    text-align:top;
+    height: 200px;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid yellow;
+
+}
+.col-6{
+    width: fit-content;
+}
+#sendi{
+    width:fit-content;
+    border-radius: 15px;
+    padding: auto 8px auto 8px;
+}
